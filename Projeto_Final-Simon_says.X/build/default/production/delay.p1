@@ -1,0 +1,58 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3 delay.c
+[; ;delay.c: 3: void tempo(int tempo_x){
+[v _tempo `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _tempo ]
+[v _tempo_x `i ~T0 @X0 1 r1 ]
+[f ]
+"4
+[; ;delay.c: 4:     volatile unsigned char j, k;
+[v _j `Vuc ~T0 @X0 1 a ]
+[v _k `Vuc ~T0 @X0 1 a ]
+"6
+[; ;delay.c: 6:     while(tempo_x>0){
+[e $U 2  ]
+[e :U 3 ]
+{
+"7
+[; ;delay.c: 7:         for(j = 0; j < 10; j++) {
+{
+[e = _j -> -> 0 `i `uc ]
+[e $ < -> _j `i -> 10 `i 5  ]
+[e $U 6  ]
+[e :U 5 ]
+{
+"8
+[; ;delay.c: 8:             for(k = 0; k < 3; k++);
+{
+[e = _k -> -> 0 `i `uc ]
+[e $ < -> _k `i -> 3 `i 8  ]
+[e $U 9  ]
+[e :U 8 ]
+[e ++ _k -> -> 1 `i `Vuc ]
+[e $ < -> _k `i -> 3 `i 8  ]
+[e :U 9 ]
+}
+"9
+[; ;delay.c: 9:         }
+}
+[e ++ _j -> -> 1 `i `Vuc ]
+[e $ < -> _j `i -> 10 `i 5  ]
+[e :U 6 ]
+}
+"10
+[; ;delay.c: 10:         tempo_x--;
+[e -- _tempo_x -> 1 `i ]
+"11
+[; ;delay.c: 11:     }
+}
+[e :U 2 ]
+"6
+[; ;delay.c: 6:     while(tempo_x>0){
+[e $ > _tempo_x -> 0 `i 3  ]
+[e :U 4 ]
+"12
+[; ;delay.c: 12: }
+[e :UE 1 ]
+}

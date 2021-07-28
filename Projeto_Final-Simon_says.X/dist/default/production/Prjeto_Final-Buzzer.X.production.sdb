@@ -1,0 +1,491 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"56 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/lcd.c
+[e E2359 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"60 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/ssd.c
+[e E7 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"7 /opt/microchip/xc8/v2.32/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 /opt/microchip/xc8/v2.32/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 /opt/microchip/xc8/v2.32/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.32/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.32/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.32/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.32/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.32/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.32/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 /opt/microchip/xc8/v2.32/pic/sources/c99/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.32/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.32/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.32/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.32/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 /opt/microchip/xc8/v2.32/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.32/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"3 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/delay.c
+[v _tempo tempo `(v  1 e 1 0 ]
+"29 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/i2c.c
+[v _delay delay `(v  1 e 1 0 ]
+"14 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+"54
+[v _pinMode pinMode `(v  1 e 1 0 ]
+"35 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+"39
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+"87
+[v _kpInit kpInit `(v  1 e 1 0 ]
+"31 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/lcd.c
+[v _Delay40us Delay40us `(v  1 e 1 0 ]
+"37
+[v _Delay2ms Delay2ms `(v  1 e 1 0 ]
+"48
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+"74
+[v _lcdData lcdData `(v  1 e 1 0 ]
+"95
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+"15 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/main.c
+[v _imprime_img imprime_img `(v  1 e 1 0 ]
+"74
+[v _num_rodada num_rodada `(v  1 e 1 0 ]
+"89
+[v _main main `(v  1 e 1 0 ]
+"52 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/pwm.c
+[v _pwmFrequency pwmFrequency `(v  1 e 1 0 ]
+"59
+[v _pwmInit pwmInit `(v  1 e 1 0 ]
+"38 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/ssd.c
+[v _ssdDigit ssdDigit `(v  1 e 1 0 ]
+"54
+[v _ssdUpdate ssdUpdate `(v  1 e 1 0 ]
+"101
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+"53 /opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"272
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"451
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S280 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"498
+[s S320 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S329 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S338 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+]
+[s S342 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S346 . 1 `S280 1 . 1 0 `S320 1 . 1 0 `S329 1 . 1 0 `S338 1 . 1 0 `S342 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES346  1 e 1 @3970 ]
+"633
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"775
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1478
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1700
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1922
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S271 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1954
+[u S289 . 1 `S271 1 . 1 0 `S280 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES289  1 e 1 @3988 ]
+"2144
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2366
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6169
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6259
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6266
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+"6693
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"25 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/keypad.c
+[v _valor valor `ui  1 s 2 valor ]
+"13 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/main.c
+[v _rodada rodada `i  1 e 2 0 ]
+[v _pos pos `i  1 e 2 0 ]
+"32 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/ssd.c
+[v _valor@ssd$F250 valor `C[16]uc  1 s 16 valor ]
+"34
+[v _display display `uc  1 s 1 display ]
+"36
+[v _v0 v0 `uc  1 s 1 v0 ]
+[v _v1 v1 `uc  1 s 1 v1 ]
+[v _v2 v2 `uc  1 s 1 v2 ]
+[v _v3 v3 `uc  1 s 1 v3 ]
+"89 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"118
+[v main@vetor vetor `[20]i  1 a 40 203 ]
+"117
+[v main@resp resp `[20]i  1 a 40 163 ]
+"108
+[v main@img4 img4 `[32]uc  1 a 32 96 ]
+"102
+[v main@img3 img3 `[32]uc  1 a 32 64 ]
+"96
+[v main@img2 img2 `[32]uc  1 a 32 32 ]
+"90
+[v main@img1 img1 `[32]uc  1 a 32 0 ]
+"114
+[v main@msg_inicio msg_inicio `[15]uc  1 a 15 128 ]
+"116
+[v main@msg_perdeu msg_perdeu `[12]uc  1 a 12 143 ]
+"115
+[v main@msg msg `[8]uc  1 a 8 155 ]
+"119
+[v main@tecla tecla `ui  1 a 2 246 ]
+[v main@turno turno `ui  1 a 2 243 ]
+"120
+[v main@i i `uc  1 a 1 249 ]
+[v main@k k `uc  1 a 1 248 ]
+[v main@erro erro `uc  1 a 1 245 ]
+"89
+[v main@F32 F32 `[32]uc  1 s 32 F32 ]
+"90
+[v main@F34 F34 `[32]uc  1 s 32 F34 ]
+"96
+[v main@F36 F36 `[32]uc  1 s 32 F36 ]
+"102
+[v main@F38 F38 `[32]uc  1 s 32 F38 ]
+"108
+[v main@F40 F40 `[15]uc  1 s 15 F40 ]
+"114
+[v main@F42 F42 `[8]uc  1 s 8 F42 ]
+"115
+[v main@F44 F44 `[12]uc  1 s 12 F44 ]
+"116
+[v main@F46 F46 `[20]i  1 s 40 F46 ]
+"288
+} 0
+"101 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/ssd.c
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+{
+"111
+} 0
+"59 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/pwm.c
+[v _pwmInit pwmInit `(v  1 e 1 0 ]
+{
+"70
+} 0
+"52
+[v _pwmFrequency pwmFrequency `(v  1 e 1 0 ]
+{
+[v pwmFrequency@freq freq `ui  1 p 2 14 ]
+"57
+} 0
+"7 /opt/microchip/xc8/v2.32/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"41
+} 0
+"74 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/main.c
+[v _num_rodada num_rodada `(v  1 e 1 0 ]
+{
+"75
+[v num_rodada@intervalo intervalo `uc  1 a 1 10 ]
+"87
+} 0
+"3 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/delay.c
+[v _tempo tempo `(v  1 e 1 0 ]
+{
+"4
+[v tempo@k k `VEuc  1 a 1 3 ]
+[v tempo@j j `VEuc  1 a 1 2 ]
+"3
+[v tempo@tempo_x tempo_x `i  1 p 2 0 ]
+"12
+} 0
+"54 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/ssd.c
+[v _ssdUpdate ssdUpdate `(v  1 e 1 0 ]
+{
+"99
+} 0
+"38
+[v _ssdDigit ssdDigit `(v  1 e 1 0 ]
+{
+[v ssdDigit@val val `uc  1 a 1 wreg ]
+[v ssdDigit@val val `uc  1 a 1 wreg ]
+[v ssdDigit@pos pos `uc  1 p 1 8 ]
+[v ssdDigit@val val `uc  1 a 1 9 ]
+"52
+} 0
+"7 /opt/microchip/xc8/v2.32/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 /opt/microchip/xc8/v2.32/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"35 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+{
+"37
+} 0
+"87
+[v _kpInit kpInit `(v  1 e 1 0 ]
+{
+"92
+} 0
+"39
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+{
+"63
+[v kpDebounce@k k `i  1 a 2 6 ]
+"40
+[v kpDebounce@i i `uc  1 a 1 9 ]
+[v kpDebounce@j j `uc  1 a 1 8 ]
+"46
+[v kpDebounce@old_D old_D `uc  1 a 1 5 ]
+"41
+[v kpDebounce@tempo tempo `uc  1 s 1 tempo ]
+"42
+[v kpDebounce@valorNovo valorNovo `ui  1 s 2 valorNovo ]
+"43
+[v kpDebounce@valorAntigo valorAntigo `ui  1 s 2 valorAntigo ]
+"85
+} 0
+"15 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/main.c
+[v _imprime_img imprime_img `(v  1 e 1 0 ]
+{
+"16
+[v imprime_img@i i `uc  1 a 1 10 ]
+"15
+[v imprime_img@img img `*.39uc  1 p 2 8 ]
+"72
+} 0
+"95 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/lcd.c
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+{
+"116
+} 0
+"54 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/io.c
+[v _pinMode pinMode `(v  1 e 1 0 ]
+{
+[v pinMode@pin pin `i  1 p 2 0 ]
+[v pinMode@type type `i  1 p 2 2 ]
+"73
+} 0
+"48 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/lcd.c
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+{
+[v lcdCommand@cmd cmd `uc  1 a 1 wreg ]
+"50
+[v lcdCommand@old_D old_D `uc  1 a 1 6 ]
+"48
+[v lcdCommand@cmd cmd `uc  1 a 1 wreg ]
+"51
+[v lcdCommand@cmd cmd `uc  1 a 1 7 ]
+"72
+} 0
+"37
+[v _Delay2ms Delay2ms `(v  1 e 1 0 ]
+{
+"39
+[v Delay2ms@i i `uc  1 a 1 1 ]
+"44
+} 0
+"74
+[v _lcdData lcdData `(v  1 e 1 0 ]
+{
+[v lcdData@valor valor `uc  1 a 1 wreg ]
+"77
+[v lcdData@old_D old_D `uc  1 a 1 7 ]
+"74
+[v lcdData@valor valor `uc  1 a 1 wreg ]
+"78
+[v lcdData@valor valor `uc  1 a 1 6 ]
+"92
+} 0
+"14 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+{
+[v digitalWrite@pin pin `i  1 p 2 0 ]
+[v digitalWrite@value value `i  1 p 2 2 ]
+"38
+} 0
+"31 /home/larissa/MPLAB/Prjeto_Final-Buzzer.X/lcd.c
+[v _Delay40us Delay40us `(v  1 e 1 0 ]
+{
+"33
+[v Delay40us@i i `uc  1 a 1 0 ]
+"35
+} 0
+"15 /opt/microchip/xc8/v2.32/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
